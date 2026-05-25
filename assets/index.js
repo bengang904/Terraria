@@ -7372,7 +7372,7 @@ try {
 } catch (s) {
 	console.error(`Registration failed with ${s}`);
 }
-const wasm = await eval('import("../_framework/dotnet.js")'),
+const wasm = await eval('import("../framework/dotnet.js")'),
 	dotnet = wasm.dotnet;
 window.wasm = wasm;
 let exports;
